@@ -1,0 +1,42 @@
+body{
+    background-color:darkslategrey;
+}
+.icon{
+    width: 128px;
+    height: 128px;
+    text-align: left;
+}
+
+.center {
+    text-align:center;
+    font-size: 50px;
+}
+
+.title{
+    position:relative;
+    top:-0.5em;
+}
+
+.canvas{
+    position:relative;
+    float: center;
+    top:-2em;
+    order:1px solid #000000;
+    background-color:black;
+    margin-left: 13em;
+}
+
+.scoreDiv{
+    float: right;
+    font-size: 30px;
+    margin-right: 6em;
+}
+
+.scoreNumber{
+    float: right;
+    margin-right: 2.5em;
+}
+
+.bestScoreNumber{
+    float: right;
+}
